@@ -1,0 +1,74 @@
+
+main  {
+    width: 100%;
+    margin: -120px 0 0 0;
+}
+
+article {
+    margin: 15% 10%;
+    width: 40%;
+    background-color: rgba(136, 136, 136, 0.5);
+    border-radius: 10px;
+}
+
+article h1 {
+    text-align: center;
+}
+
+article p {
+    font-size: 0.8em;
+    padding: 0 2%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.show-more {
+    display: none;
+}
+
+.show-more-toggle {
+    border-top: 1px solid #aeaeae;
+    border-bottom: 1px solid #aeaeae;
+    border-radius: 10px;
+    width: 100%;
+    font-size: 0.7em;
+    cursor: pointer;
+    background-color: rgba(136, 136, 136, 0.7);
+    text-align: center;
+    margin: 2% 0;
+}
+
+#drake {
+    background: url("../Images/bio/drake.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 40%;
+}
+
+#lana {
+    background: url("../Images/bio/lana.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-right: 40%;
+}
+
+#lana article {
+    background-color: rgba(136, 136, 136, 0.5);
+
+}
+
+#kanye {
+    background: url("../Images/bio/kanye.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-left: 40%;
+}
+
+

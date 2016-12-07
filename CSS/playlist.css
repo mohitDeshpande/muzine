@@ -1,0 +1,30 @@
+
+body {
+    background: url('../Images/singer.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    text-align: center;
+    text-shadow: 1px 1px #aeaeae;
+
+}
+
+#banner {
+    width:40%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgba(136, 136, 136, 0.5);
+    border-radius: 10px;
+    padding: 1%;
+}
+
+#banner > h2 {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 2em;
+
+}
+
+#playlist {
+    padding-top: 10%;
+}

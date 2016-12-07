@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Muzine &middot; Home</title>
+    <link href="CSS/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.15.0/jquery.validate.min.js"></script>
+    <script src="js/project.js"></script>
+</head>
+<body>
+        <header>
+            <nav>
+                <span id="logo"><a href="index.html">Muzine</a></span>
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="playlist.html">Featured</a></li>
+                    <li><a href="bio.html">Biography</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="videos.html">Music Videos</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="first">
+            <div id="hero">
+                <h3>Welcome to</h3>
+                <h1 id="hero-logo">Muzine</h1>
+                <hr>
+                <p>Muzine is an online music magazine featuring the latest popular music, artists and playists curated by our expert curators</p>
+                <br>
+                <div align="center">
+                    <a href="#second" class="button horizontal">Subscribe</a>
+                    <a href="playlist.html" class="button horizontal">Check out the featured playlist</a>
+                </div>
+            </div>
+        </section>
+        <section id="second">
+            <div class="form">
+                <div class="heading"><h2>Subscribe to our newsletter</h2></div><br>
+                <form action="" method="post" id="sign-up-form">
+                    <fieldset>
+                    <label for="name">Name<input type="text" class="input-field" name="name" value="" minlength="2" required/></label><br>
+                    <label for="email">Email<input type="email" class="input-field" name="email" value="" required/></label><br>
+                    <label for="country">Country<select name="country">
+                        <option value="Canada">Canada</option>
+                        <option value="USA">USA</option>
+                        <option value="INDia">India</option>
+                    </select></label><br><br>
+                    <label><input type="submit" value="Submit" class="button"/></label>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+
+        <script>
+            $('#sign-up-form').validate();
+        </script>
+
+</body>
+</html>

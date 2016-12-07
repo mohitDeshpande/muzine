@@ -1,0 +1,81 @@
+.col-2 > .left {
+    float: left;
+    width: 35%;
+}
+
+.col-2 > .video {
+    float: right;
+    width: 60%;
+}
+
+main {
+    width: 100%;
+    overflow: auto;
+}
+section {
+    padding: 1% 10%;
+}
+
+div {
+    background-color: rgba(136, 136, 136, 0.5);
+    border-radius: 10px;
+    padding:1% 1%;
+
+}
+
+h1,h3  {
+    font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+#okgo {
+    background: url("http://pre04.deviantart.net/c4d8/th/pre/f/2006/331/9/6/okgo_widescreen_wallpaper_by_th33w0krap15t.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#coldplay {
+    background: url("http://wallpapercave.com/wp/CFtTNQ5.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#impala {
+    background: url("https://fanart.tv/fanart/music/63aa26c3-d59b-4da4-84ac-716b54f1ef4d/artistbackground/tame-impala-515a1f8fc8ed8.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#alt {
+    background: url("https://img.buzzfeed.com/buzzfeed-static/static/enhanced/webdr03/2013/9/13/13/enhanced-buzz-26671-1379093033-19.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#jayz {
+    background: url("http://1.bp.blogspot.com/-vr0jUA8zHHE/Td6n_4Q3ocI/AAAAAAAAFz8/JvZ3ZpRzMTo/s1600/KanyeWest_JayZ.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#floyd {
+    background: url("https://wallpaperscraft.com/image/pink_floyd_rock_band_syd_barrett_roger_waters_david_gilmour_richard_wright_bw_98861_3840x2400.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}

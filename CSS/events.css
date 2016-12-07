@@ -1,0 +1,32 @@
+aside {
+    float: left;
+    width: 20%;
+    margin-top: 10%;
+    margin-left: 5%;
+    position: fixed;
+    font-family: 'Oswald', sans-serif;
+
+}
+
+
+aside ul {
+    list-style-type: none;
+}
+
+aside li:hover {
+    text-decoration: underline;
+}
+
+main {
+    float: right;
+    width: 65%;
+    margin-right: 5%;
+}
+
+section {
+    padding: 5% 0%;
+}
+
+tr:hover {
+    background-color: rgba(0, 0, 0, 0);
+}

@@ -1,0 +1,185 @@
+/* Page wide styles */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600i,700|Oswald:400,700');
+@import url('https://fonts.googleapis.com/css?family=Covered+By+Your+Grace');
+
+* {
+    margin:0;
+    padding:0;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Covered By Your Grace', cursive;
+    font-size: 3em;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+    color: white;
+    height: 100%;
+
+    background: #614385; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #614385 , #516395); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #614385 , #516395); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url('../Images/audience.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+
+section {
+    width: 100%;
+    display: block;
+    overflow:auto;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgba(136, 136, 136, 0.7);
+}
+
+/* Header */
+
+header {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.2em;
+}
+
+nav {
+    padding: 10px 10%;
+    postion: fixed;
+    top: 0;
+    height: 100px;
+}
+
+nav ul {
+    padding-top: 2%;
+    list-style-type: none;
+    float: right;
+}
+
+
+
+nav li {
+    display:inline;
+    padding-left: 30px;
+}
+
+nav li.active {
+    text-decoration: underline;
+}
+
+nav li:hover {
+    text-decoration: underline;
+}
+
+#logo {
+    font-family: 'Covered By Your Grace', cursive;
+    float: left;
+    font-size: 3em;
+}
+
+
+/* main */
+#hero {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+    text-align: center;
+    width: 50%;
+    margin-top: 10%;
+    margin-right: auto;
+    margin-left:auto;
+    padding-bottom: 1%;
+    height:70vh;
+}
+
+#hero-logo {
+    font-size: 3em;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+
+#second {
+    background-color: rgba(136, 136, 136, 0.7);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.horizontal {
+    display: inline;
+}
+
+.no-style {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+main {
+    width: 80%;
+    margin: 10% auto;
+}
+
+table {
+    border-collapse: collapse;
+    border-bottom: 2px solid #aeaeae;
+    text-align: center;
+    width:100%;
+}
+tr {
+    border-bottom: 2px solid #aeaeae;
+    height: 20px;
+}
+tr:hover {
+    background-color: rgba(136, 136, 136, 0.7);
+}
+
+th {
+}
+
+td {
+    margin: 30px 20px;
+    width: 15%;
+}
+
+.form {
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    margin: 10% auto;
+}
+
+input,select {
+    margin-left: 30px;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
