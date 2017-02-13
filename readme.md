@@ -1,3 +1,4 @@
+#Muzine
 Muzine is an online magazine which showcases the the best in latest pop and indie music
 
 The website can be viewed by visiting
